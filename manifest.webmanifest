@@ -1,0 +1,15 @@
+{
+  "name": "Shakely · Controle de Compras",
+  "short_name": "Shakely Compras",
+  "description": "Lotes de compra, pesquisa de preços e estoque da Shakely.",
+  "start_url": "./#inicio",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff7ec",
+  "theme_color": "#c4126f",
+  "lang": "pt-BR",
+  "icons": [
+    {"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}
