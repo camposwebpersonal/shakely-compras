@@ -7,3 +7,9 @@
 - Celular e computador mostram as mesmas opções. Reorganizar é permitido; esconder não.
 - Antes de publicar, rodar `node tests/util.test.mjs` e `tests/app.browser.cjs` em `W=390` e `W=1366`, com `python3 -m http.server 8091` aberto na raiz. Ao mudar regras do banco, atualizar também `tests/fake-api.js`.
 - Ao mudar CSS ou JS, subir o `?v=` em `index.html` e o `CACHE` em `sw.js`.
+
+## Navegação coerente (regra permanente, vale para todos os sites do Ricardo)
+
+- Toda tela mostra, fixos no topo ao rolar, **← Voltar** para a tela pai e os breadcrumbs
+  até a tela inicial. Interface sempre intuitiva: o usuário precisa saber onde está e como
+  subir um nível, no celular e no computador.
